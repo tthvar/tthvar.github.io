@@ -1,3 +1,14 @@
+@media only screen and (max-width: 768px) {
+    .contact {
+        width: 50% !important;
+        left: 0 !important;
+        bottom: 0 !important;
+        position: relative !important;
+        margin-top: 20px !important;
+    }
+}
+
+
 .content {
   text-align: center;
   margin-top:  8vh;
