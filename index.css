@@ -164,7 +164,6 @@ ul {
   display: flex;
   width:  15%;
   position: absolute;
-  bottom:  25px;
   left:  calc(50% - 7.5%);
   margin:  auto;
   justify-content: center;
