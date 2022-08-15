@@ -38,23 +38,23 @@ img{
 .p1 {
   color: black;
   font-family: 'Georgia', serif;
-  font-size: 25px;
+  font-size: 27px;
 }
 
 
-.p1 a: link{
+.p2 a: link{
   color: black;
   font-family: 'Georgia', serif;
   font-size:  40px;
 }
 
-.p1 a:link {
+.p2 a:link {
   color: black;
 }
-.p1 a:visited {
+.p2 a:visited {
   color: black;
 }
-.p1 a:hover {
+.p2 a:hover {
   color: gold;
   transition:  0.2s all;
 }
