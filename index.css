@@ -136,6 +136,51 @@ ul {
   transition: 0.2s all;
 }
 
+.verkada {
+  font-family:  'Georgia', serif;
+  font-size:  20px;
+}
+
+.verkada:hover{
+  background-color:  darkturquoise;
+  color:  white;
+  transition: 0.2s all;
+}
+
+.verkada a:link {
+  color: black;
+}
+.verkada a:visited {
+  color: black;
+}
+.verkada a:hover {
+  color: darkgray;
+  transition: 0.2s all;
+}
+
+.yahoo {
+  font-family:  'Georgia', serif;
+  font-size:  20px;
+}
+
+.yahoo:hover{
+  background-color:  mediumpurple;
+  color:  white;
+  transition: 0.2s all;
+}
+
+.yahoo a:link {
+  color: black;
+}
+.yahoo a:visited {
+  color: black;
+}
+.yahoo a:hover {
+  color: rebeccapurple;
+  transition: 0.2s all;
+}
+
+
 .resumeButton {
   background: #7ae9ff;
   border: none;
