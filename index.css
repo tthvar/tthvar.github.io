@@ -154,7 +154,7 @@ ul {
   color: black;
 }
 .verkada a:hover {
-  color: dimgray;
+  color: red;
   transition: 0.2s all;
 }
 
@@ -164,9 +164,10 @@ ul {
 }
 
 .yahoo:hover{
-  background-color:  mediumpurple;
+  background-color:  blueviolet;
   color:  white;
   transition: 0.2s all;
+  opacity: 0.65;
 }
 
 .yahoo a:link {
