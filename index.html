@@ -53,6 +53,11 @@
 	<button class = "musicButton" onclick = "window.open('https://open.spotify.com/artist/7AVwBWWzOKWkTRNA4HbuZI?si=SZ13nNoIRHCMKFcHvfFysg')">
 		My Music
 	</button>
+
+	<br><br>
+	<iframe id="spotifyIframe" style="border-radius:12px; display: none;" src="https://open.spotify.com/embed/artist/7AVwBWWzOKWkTRNA4HbuZI?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+	<br>
+	
 	<p style="page-break-after: always;">&nbsp;</p>
 	<div class = "contact">
 		<a id = "linkedin" href = "https://www.linkedin.com/in/tthvar"></a>
@@ -60,4 +65,17 @@
 		<a id = "github" href = "https://github.com/tthvar"></a>
 	</div>
 </div>
+
+<script>
+  const musicButton = document.querySelector('.musicButton');
+  const spotifyIframe = document.getElementById('spotifyIframe');
+
+  musicButton.addEventListener('click', function() {
+    spotifyIframe.style.display = 'block'; // Show the iframe
+    // Optional: You might want to scroll to the iframe when it appears
+    spotifyIframe.scrollIntoView({ behavior: 'smooth' });
+  });
+</script>
+
+
 </body>
