@@ -66,6 +66,42 @@ img{
   font-size: 21px;
 }
 
+.center-berkeley {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
+  height: 44px;
+}
+
+.center-yahoo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: 66px;
+}
+
+.center-verkada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: 25px;
+}
+
+.center-cos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+  height: 44px;
+}
+
+.list-inline li{
+ display:inline-block;
+}
+
 ul {
   list-style-type:  none;
   margin:  0;
@@ -77,7 +113,7 @@ ul {
   font-size:  20px;
 }
 .battery:hover{
-  background-color:  #B0E0E6;
+  background-color:  #32CD32;
   color:  white;
   transition:  0.2s all;
 }
@@ -88,10 +124,9 @@ ul {
   color: black;
 }
 .battery a:hover {
-  color: #32CD32;
+  color: #C0C0C0;
   transition: 0.2s all;
 }
-
 
 .vmware {
   font-family:  'Georgia', serif;
