@@ -216,6 +216,29 @@ ul {
   transition: 0.2s all;
 }
 
+.linkedin {
+  font-family:  'Georgia', serif;
+  font-size:  20px;
+}
+
+.linkedin:hover{
+  background-color:  lightskyblue;
+  color:  white;
+  transition: 0.2s all;
+  opacity: 0.65;
+}
+
+.linkedin a:link {
+  color: black;
+}
+.linkedin a:visited {
+  color: black;
+}
+.linkedin a:hover {
+  color: darkblue;
+  transition: 0.2s all;
+}
+
 
 .resumeButton {
   background: #7ae9ff;
